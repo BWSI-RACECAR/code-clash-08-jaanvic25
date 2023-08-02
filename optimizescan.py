@@ -39,7 +39,7 @@ class Solution:
 
         #TODO: Write code below to return a float with the solution to the prompt.
 
-        pass 
+        return float((battcap/500)*(battcap/1000)) 
 
 def main():
     battcap = int(input())
